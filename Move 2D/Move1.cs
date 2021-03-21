@@ -1,5 +1,4 @@
-//Nesse script mostrarei o comando de movimento transform.Translate
-
+//Primeiro MOVE - Nesse script mostrarei o comando de movimento transform.Translate
 
 using System.Collections;
 using System.Collections.Generic;
