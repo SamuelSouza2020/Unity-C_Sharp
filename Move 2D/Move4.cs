@@ -6,7 +6,8 @@ public class move1 : MonoBehaviour
 {
     public float v = 3;
 
-    void Update()
+    //FixedUpdate é utilizado quando necessita aplicar física ao corpo rígido
+    void FixedUpdate()
     {
         if (Input.GetKey(KeyCode.RightArrow))
         {
