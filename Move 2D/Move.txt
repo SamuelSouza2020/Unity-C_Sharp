@@ -1,1 +1,1 @@
-Todos os tipos de movimento até o momento são feito pelo teclado, não inclui joysticks e nem mouse.
+Código para iniciantes, não inclui joystick e touch.
