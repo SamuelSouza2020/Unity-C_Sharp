@@ -4,8 +4,8 @@ No objeto que você deixará como chão, terá que está com a Tag "chao" (pode 
 Para colocar uma tag em um objeto basta apertar no objeto (na Unity) e no Inspector abaixo do nome estará
 escrito Tag. Você apertará na Tag onde provavelmente estará com o nome "Untagged" e clicará em "Add Tag".
 Após apertar "Add Tag", aparecerá no Inspector "Tags & Layers", abaixo do Tags você apertará no sinal de
-mais (+) e escreverá o nome da Tag (pode ser qualquer um, eu usei "chao").
-Após isso só apertar novamente no objeto e ir até Inspector, apertar novamente onde está escrito Tag e por
+mais (+) e escreverá o nome da Tag (pode ser qualquer um nome, nesse script usei "chao").
+Após isso só apertar novamente no objeto e ir até Inspector. No Inspector, aperte onde está escrito Tag e por
 último apertar em qual você criou.
 */
 
