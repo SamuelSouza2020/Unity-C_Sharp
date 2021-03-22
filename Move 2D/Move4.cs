@@ -11,6 +11,7 @@ public class move1 : MonoBehaviour
     {
         if (Input.GetKey(KeyCode.RightArrow))
         {
+            //Rigidbody é o corpo físico do GameObjeto (Player)
             GetComponent<Rigidbody2D>().velocity = new Vector2(v, 0);
         }
 
