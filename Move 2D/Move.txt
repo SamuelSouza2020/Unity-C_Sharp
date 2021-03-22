@@ -1,1 +1,1 @@
-Código para iniciantes, não inclui joystick e touch.
+Códigos básicos para iniciantes
