@@ -6,7 +6,6 @@ using UnityEngine;
 
 public class Move2 : MonoBehaviour
 {
-    //A velocidade pode ser ajustada no Inspector da Unity.
     public float v = 5;
 
     void Update()
