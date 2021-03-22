@@ -4,7 +4,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class move1 : MonoBehaviour
+public class move3 : MonoBehaviour
 {
     //A velocidade pode ser ajustada no Inspector da Unity.
     public float v = 3;
