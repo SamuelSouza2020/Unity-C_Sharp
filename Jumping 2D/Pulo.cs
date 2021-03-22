@@ -18,9 +18,9 @@ public class Pulo : MonoBehaviour
 
     /*
     Mesmo aplicando força, será usado o Update pois nesse exemplo de código será chamado
-    constantimente (Estilo Flappy Bird), para não ter atraso ou falha será usado o Update que é 
+    constantemente (Estilo Flappy Bird), para não ter atraso ou falha será usado o Update que é 
     chamado a cada frame. Já o FixedUpdate é chamado em um intervalo de tempo fixo, por isso é mais usado
-    quando o código é lento (mais calculos físicos).
+    quando o código é lento (exemplo calculos físicos).
     */
     void Update()
     {
