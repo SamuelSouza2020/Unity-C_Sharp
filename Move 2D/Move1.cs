@@ -16,7 +16,7 @@ public class move1 : MonoBehaviour
             //Vector2(X,Y)
             transform.Translate(new Vector2(v * Time.deltaTime, 0));
         }
-        //Trocando o segundo if por Else if, quando você apertar os dois botões ao mesmo tempo, a preferencia do comando vai para o primeiro código (RightArrow)
+        //Trocando o segundo if por Else if, quando você apertar os dois botões ao mesmo tempo, a preferência do comando vai para o primeiro código (RightArrow)
         if (Input.GetKey(KeyCode.LeftArrow))
         {
             transform.Translate(new Vector2(-v * Time.deltaTime, 0));
