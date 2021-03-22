@@ -1,3 +1,5 @@
+//Segundo MOVE - Nesse script mostrarei o comando de movimento transform.position
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
