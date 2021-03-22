@@ -1,4 +1,4 @@
-//Nesse script é aplicado velocidade em um corpo rígido
+//Nesse script é aplicado velocidade (velocity) em um corpo rígido (rigidbody)
 
 using System.Collections;
 using System.Collections.Generic;
@@ -18,7 +18,7 @@ public class move4 : MonoBehaviour
         }
         if (Input.GetKey(KeyCode.LeftArrow))
         {
-            //Velocity está sendo aplicada no corpo rígido
+            //Velocidade está sendo aplicada no corpo rígido
             GetComponent<Rigidbody2D>().velocity = new Vector2(-v, 0);
         }
     }
