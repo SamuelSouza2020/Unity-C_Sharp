@@ -1,8 +1,10 @@
+//Nesse script é aplicado velocidade em um corpo rígido
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class move1 : MonoBehaviour
+public class move4 : MonoBehaviour
 {
     public float v = 3;
 
