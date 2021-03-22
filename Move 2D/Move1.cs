@@ -11,13 +11,12 @@ public class move1 : MonoBehaviour
 
     void Update()
     {
-        //Quando È utilizado sem valor ou boolean o if considera se for Input... == true
         if (Input.GetKey(KeyCode.RightArrow))
         {
             //Vector2(X,Y)
             transform.Translate(new Vector2(v * Time.deltaTime, 0));
         }
-        //Pode ser usado o Else If para se apertar os dois ao mesmo tempo dar· prioridade ao 1∫
+        //Trocando o segundo if por Else if, quando voc√™ apertar os dois bot√µes ao mesmo tempo, a preferencia do comando vai para o primeiro c√≥digo (RightArrow)
         if (Input.GetKey(KeyCode.LeftArrow))
         {
             transform.Translate(new Vector2(-v * Time.deltaTime, 0));
