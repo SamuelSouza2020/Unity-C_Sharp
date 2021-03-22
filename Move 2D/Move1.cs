@@ -13,7 +13,7 @@ public class move1 : MonoBehaviour
     {
         if (Input.GetKey(KeyCode.RightArrow))
         {
-            //Vector2(X,Y)
+            //new Vector2(X,Y)
             transform.Translate(new Vector2(v * Time.deltaTime, 0));
         }
         //Trocando o segundo if por Else if, quando você apertar os dois botões ao mesmo tempo, a preferência do comando vai para o primeiro código (RightArrow)
