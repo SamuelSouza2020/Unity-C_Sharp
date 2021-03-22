@@ -10,7 +10,7 @@ public class Move2 : MonoBehaviour
 
     void Update()
     {
-        //Quando é utilizado sem valor ou boolean o if considera se for Input... == true
+        //GetKey é conforme você segura o botão, a função é executada.
         if (Input.GetKey(KeyCode.RightArrow))
         {
             //Position não aceitar o new Vector2, somente new Vector3 e new Vector4
