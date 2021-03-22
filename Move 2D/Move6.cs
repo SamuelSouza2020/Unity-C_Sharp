@@ -18,7 +18,7 @@ public class move1 : MonoBehaviour
         Coloque o mesmo nome que você alterou no Submit dentro do GetAxis
         Dentro do Input Manager>Direcional você limpará os campo Alt, positive e negative button
         Colocará o Type como Joystick Axis e pesquisará o mapa do controle que vai utilizar como joystick
-        Na opção Axi que fica abaixo do Type você coloca seleciona o nome do botão mostrado no mapa
+        Na opção Axi que fica abaixo do Type você coloca o nome do botão mostrado no mapa
         Nesse exemplo irei demonstrar o Horizontal do controle "X axis" ou "6th axis"
         */
         float H = Input.GetAxis("Direcional");
