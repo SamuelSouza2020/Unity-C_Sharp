@@ -13,6 +13,7 @@ public class move3 : MonoBehaviour
     {
         //GetAxis Horizontal voce poderá modificar pelo Edit>Project Settings>Input Manager>Horizontal
         float H = Input.GetAxis("Horizontal");
+        //para acrescentar o movimento vertical, basta copiar o código acima mudando o nome da variável e de Horizontal para Vertical
         transform.Translate(new Vector3(H * Time.deltaTime * v, 0, 0));
     }
 }
