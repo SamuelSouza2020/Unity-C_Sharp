@@ -9,7 +9,6 @@ public class Pipes : MonoBehaviour
     
 
     float cont = 2;
-    //float height = 1.5f;
 
     void Update()
     {
@@ -19,7 +18,6 @@ public class Pipes : MonoBehaviour
         {
             Instantiate(pipe, new Vector3(transform.position.x, Random.Range(-3, 1), 0), Quaternion.identity);
             cont = 0;
-            //Debug.Log(height);
         }
     }
 }
