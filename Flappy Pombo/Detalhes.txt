@@ -1,1 +1,3 @@
-Nessa pasta tem um game básico
+Flappy Pombo é um jogo básico, todos scripts serão explicado mais para frente.
+
+Na pasta tem o jogo exportado, música usada no jogo, uma pasta com os sprites e uma com os scripts. 
