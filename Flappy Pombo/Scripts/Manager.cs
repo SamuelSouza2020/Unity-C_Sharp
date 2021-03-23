@@ -31,12 +31,7 @@ public class Manager : MonoBehaviour
             img.gameObject.SetActive(true);
             btn.gameObject.SetActive(true);
         }
-    }
-    /*public void SalvarPontuacao()
-    {
-        PlayerPrefs.SetInt("pontos", Pontos);
-    }*/
-    
+    }    
     public void JogarNovamente()
     {
         life++;
