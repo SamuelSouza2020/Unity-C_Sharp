@@ -1,2 +1,2 @@
 # Unity C# (Sharp)
-Códigos Exemplos de C# na Engine Unity
+Exemplos de códigos do C# na Engine Unity
